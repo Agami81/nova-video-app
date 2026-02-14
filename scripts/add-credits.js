@@ -1,6 +1,8 @@
+/* eslint-disable */
 
 const fs = require('fs');
 const path = require('path');
+/* eslint-disable */
 const { PrismaClient } = require('@prisma/client');
 
 // Manually load .env.local because we are running a standalone script

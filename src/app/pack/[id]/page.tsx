@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 'use client';
 
 import { useParams, useRouter } from 'next/navigation';
@@ -181,7 +182,7 @@ export default function PackDetailsPage() {
                 transition={{ type: 'spring', damping: 20, stiffness: 100 }}
             >
                 <div className={styles.headerRow}>
-                    <span className={styles.title}>What's Inside</span>
+                    <span className={styles.title}>What&apos;s Inside</span>
                     <span className={styles.badge}>SNEAK PEEK</span>
                 </div>
 

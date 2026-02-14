@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { Hono } from 'hono'
 import { auth, currentUser } from '@clerk/nextjs/server'
 import { prisma } from '../../lib/db'

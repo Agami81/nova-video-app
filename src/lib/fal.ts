@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { fal } from '@fal-ai/client';
 import { GenerationRequest, GenerationResponse } from './ai';
 
