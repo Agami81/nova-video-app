@@ -1,11 +1,15 @@
 :root {
-  --background: #000000;
+  --background: #0a0a0a;
+  /* Slightly softer than pure black */
   --foreground: #ffffff;
   --primary: #ffffff;
   --secondary: #1a1a1a;
-  --accent: #3b82f6; 
+  --accent: #8a2387;
+  /* Fallback accent */
+  --brand-gradient: linear-gradient(135deg, #8a2387 0%, #e94057 50%, #f27121 100%);
+  /* Instagram-like vibrant gradient */
+  --card-bg: #151515;
   --muted: #888888;
-  --card-bg: #121212;
 }
 
 * {
@@ -31,12 +35,14 @@ a {
 
 /* Utilities */
 .container {
-  max-width: 600px; /* Mobile-first width constrain */
+  max-width: 600px;
+  /* Mobile-first width constrain */
   margin: 0 auto;
   padding: 0 16px;
   min-height: 100vh;
   position: relative;
-  padding-bottom: 80px; /* Space for bottom nav */
+  padding-bottom: 80px;
+  /* Space for bottom nav */
 }
 
 /* Custom Scrollbar for hidden scroll feel */

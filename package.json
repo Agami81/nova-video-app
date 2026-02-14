@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@capacitor/android": "^8.1.0",
@@ -14,9 +15,12 @@
     "@capacitor/core": "^8.1.0",
     "@capacitor/ios": "^8.1.0",
     "@clerk/nextjs": "^6.37.3",
+    "@fal-ai/client": "^1.9.1",
+    "@fal-ai/server-proxy": "^1.2.0",
     "@prisma/client": "^5.22.0",
     "clsx": "^2.1.1",
     "framer-motion": "^12.34.0",
+    "hono": "^4.11.9",
     "lucide-react": "^0.563.0",
     "next": "16.1.6",
     "openai": "^6.21.0",

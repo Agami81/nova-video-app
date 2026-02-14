@@ -7,6 +7,8 @@ export interface GenerationRequest {
     prompt: string;
     type: GenerationType;
     style?: string;
+    image_url?: string;
+    image_urls?: string[];
 }
 
 export interface GenerationResponse {
