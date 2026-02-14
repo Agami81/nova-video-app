@@ -108,7 +108,7 @@ function ProcessingContent() {
                     {status}
                 </motion.h1>
 
-                <div style={{ color: 'red', fontWeight: 'bold', marginTop: '10px' }}>DEBUG MODE ACTIVE v3</div>
+                <div style={{ color: 'blue', fontWeight: 'bold', marginTop: '10px', fontSize: '20px' }}>DEBUG MODE ACTIVE v4</div>
 
                 <p className={styles.subText}>
                     Please wait while our AI works its magic on your photos. Do not close this page.
